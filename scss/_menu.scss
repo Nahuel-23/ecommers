@@ -1,0 +1,91 @@
+/*css menu*/
+
+// Variables
+@import "variables";
+
+.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+    .box{
+        padding:5rem;
+        text-align: center;
+        border:var(--border); 
+        img{
+            height: 10rem;
+        }
+        h3{
+            color: $color-primary;
+            font-size: 2rem;
+            padding:1rem 0;
+        }
+        .price{
+            color: $color-primary;
+            font-size: 2.5rem;
+            padding:.5rem 0;
+            span{
+                font-size: 1.5rem;
+                text-decoration: line-through;
+                font-weight: lighter;
+            }
+        }
+    }
+}
+
+.menu .box-container .box:hover{
+    background:$color-primary;
+}
+
+.menu .box-container .box:hover > *{
+    color:var(--black);
+}
+
+.products .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+    .box{
+        text-align: center;
+        border:var(--border);
+        padding: 2rem;
+        .icons a{
+            height: 5rem;
+            width: 5rem;
+            line-height: 5rem;
+            font-size: 2rem;
+            border:var(--border);
+            color:$color-primary;
+            margin:.3rem;
+        }
+        .image{
+            padding: 2.5rem 0;
+            img{
+                height: 25rem;
+            }
+        }
+        .content h3{
+            color:$color-primary;
+            font-size: 2.5rem;
+        }
+        .content .stars{
+            padding: 1.5rem;
+            i{
+                font-size: 1.7rem;
+                color: var(--main-color);
+            }
+        }
+        .content .price{
+            color:$color-primary;
+            font-size: 2.5rem;
+            span{
+                text-decoration: line-through;
+                font-weight: lighter;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+.products .box-container .box .icons a:hover{
+    background:var(--main-color);
+}

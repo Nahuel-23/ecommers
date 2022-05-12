@@ -1,0 +1,27 @@
+/*css de mi inicio*/
+// Variables
+@import "variables";
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    .content{
+        max-width: 60rem;
+        h3{
+            font-size: 6rem;
+            text-transform: uppercase;
+            color:$color-primary;
+        }
+        p{
+            font-size: 2rem;
+            font-weight: lighter;
+            line-height: 1.8;
+            padding:1rem 0;
+            color:$color-primary;
+        }
+    }
+}
+
