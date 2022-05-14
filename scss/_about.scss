@@ -5,7 +5,7 @@
 .about .row{
     display: flex;
     align-items: center;
-    background:var(--black);
+    background:$color-fondo2;
     flex-wrap: wrap;
     .image{
         flex:1 1 45rem;

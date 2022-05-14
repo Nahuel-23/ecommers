@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+//variables
+@import "variables";
 
 @import"html";
 @import "header";
@@ -11,14 +13,6 @@
 @import "products";
 @import "footer";
 
-@import "variables";
-
-:root{
-    --main-color:#1abc9c;
-    --black:#545454;
-    --bg:#545454;
-    --border:.1rem solid #070000;
-}
 
 *{
     font-family: 'Roboto', sans-serif;

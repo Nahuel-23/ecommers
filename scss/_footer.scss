@@ -3,7 +3,7 @@
 @import "variables";
 
 .footer{
-    background:var(--black);
+    background:$color-fondo2;
     text-align: center;
     .share{
         padding:1rem 0;
@@ -12,8 +12,8 @@
             width: 5rem;
             line-height: 5rem;
             font-size: 2rem;
-            color:#fff;
-            border:var(--border);
+            color:$color-primary;
+            border:$border;
             margin:.3rem;
             border-radius: 50%;
         }
@@ -26,26 +26,26 @@
         gap:1rem;
         a{
             padding:.7rem 2rem;
-            color:#fff;
-            border:var(--border);
+            color:$color-primary;
+            border:$border;
             font-size: 2rem;
         }
     }
     .credit{
         font-size: 2rem;
-        color:#fff;
+        color:$color-primary;
         font-weight: lighter;
         padding:1.5rem;
         span{
-            color:var(--main-color);
+            color:$color-principal;
         }
     }
 }
 
 .footer .share a:hover{
-    background-color: var(--main-color);
+    background-color: $color-principal;
 }
 
 .footer .links a:hover{
-    background:var(--main-color);
+    background:$color-principal;
 }

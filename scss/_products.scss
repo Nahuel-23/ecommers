@@ -7,14 +7,14 @@
     gap:1.5rem;
     .box{
         text-align: center;
-        border:var(--border);
+        border:$border;
         padding: 2rem;
         .icons a{
             height: 5rem;
             width: 5rem;
             line-height: 5rem;
             font-size: 2rem;
-            border:var(--border);
+            border:$border;
             color:$color-primary;
             margin:.3rem;
         }
@@ -32,7 +32,7 @@
             padding: 1.5rem;
             i{
                 font-size: 1.7rem;
-                color: var(--main-color);
+                color: $color-principal;
             }
         }
         .content .price{
@@ -48,5 +48,5 @@
 }
 
 .products .box-container .box .icons a:hover{
-    background:var(--main-color);
+    background:$color-principal;
 }

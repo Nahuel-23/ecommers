@@ -23,7 +23,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 body{
-    background: var(--bg);
+    background: $color-fondo;
 }
 
 section{
@@ -37,7 +37,7 @@ section{
     padding-bottom: 3.5rem;
     font-size: 4rem;
     span{
-        color:var(--main-color);
+        color:$color-principal;
         text-transform: uppercase;
     }
 }
@@ -48,7 +48,7 @@ section{
     padding:.9rem 3rem;
     font-size: 1.7rem;
     color: $color-primary;
-    background: var(--main-color);
+    background: $color-principal;
     cursor: pointer;
 }
 

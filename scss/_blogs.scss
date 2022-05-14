@@ -6,7 +6,7 @@
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap:1.5rem;
     .box{
-        border:var(--border); 
+        border:$border; 
         .image{
             height: 25rem;
             overflow:hidden;
@@ -25,7 +25,7 @@
                 color:$color-primary;
             }
             span{
-                color:var(--main-color);
+                color:$color-principal;
                 display: block;
                 padding-top: 1rem;
                 font-size: 2rem;
@@ -41,7 +41,7 @@
 }
 
 .blogs .box-container .box .content .title:hover{
-    color:var(--main-color);
+    color:$color-principal;
 }
 
 .blogs .box-container .box:hover .image img{

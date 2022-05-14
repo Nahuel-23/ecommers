@@ -3,12 +3,12 @@
 @import "variables";
 
 .header{
-    background: var(--bg);
+    background: $color-fondo;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding:1.5rem 7%;
-    border-bottom: var(--border);
+    border-bottom: $border;
     position: fixed;
     top:0; left: 0; right: 0;
     z-index: 1000;
@@ -44,7 +44,7 @@
         height: 100%;
         width: 100%;
         font-size: 1.6rem;
-        color:var(--black);
+        color:$color-fondo2;
         padding:1rem;
         text-transform: none;
     }
@@ -52,7 +52,7 @@
         cursor: pointer;
         font-size: 2.2rem;
         margin-right: 1.5rem;
-        color:var(--black);
+        color:$color-fondo2;
     }
     .cart-items-container{
         position: absolute;
@@ -65,13 +65,13 @@
             height: 7rem;
             .content h3{
                 font-size: 2rem;
-                color:var(--black);
+                color:$color-fondo2;
                 padding-bottom: .5rem;
             }
         }
         .cart-item .content .price{
             font-size: 1.5rem;
-            color:var(--main-color);
+            color:$color-principal;
         }
         .btn{
             width: 100%;
@@ -93,18 +93,18 @@
         top:1rem; right: 1rem;
         font-size: 2rem;
         cursor: pointer;
-        color: var(--black);
+        color: $color-fondo2;
     }
 }
 
 .header .navbar a:hover{
-    color:var(--main-color);
-    border-bottom: .1rem solid var(--main-color);
+    color:$color-principal;
+    border-bottom: .1rem solid $color-principal;
     padding-bottom: .5rem;
 }
 
 .header .icons div:hover{
-    color:var(--main-color);
+    color:$color-principal;
 }
 
 #menu-btn{
@@ -112,9 +112,9 @@
 }
 
 .header .search-form label:hover{
-    color:var(--main-color);
+    color:$color-principal;
 }
 
 .header .cart-items-container .cart-item .fa-times:hover{
-    color:var(--main-color);
+    color:$color-principal;
 }
