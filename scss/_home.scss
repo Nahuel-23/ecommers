@@ -1,6 +1,5 @@
 /*css de mi inicio*/
-// Variables
-@import "variables";
+
 
 .home{
     min-height: 100vh;
@@ -10,7 +9,7 @@
     background-position: center;
     .content{
         max-width: 60rem;
-        h3{
+        h1{
             font-size: 6rem;
             text-transform: uppercase;
             color:$color-primary;
@@ -25,3 +24,15 @@
     }
 }
 
+.contenedor-grid {
+    background: $color-fondo;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: repeat(1, 150px);
+    height: 300px;
+    text-align: center;
+}
+
+  
+ 

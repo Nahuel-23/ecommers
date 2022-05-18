@@ -3,9 +3,6 @@
 /*variables de mi css*/
 /*colores*/
 /*boder*/
-/*variables de mi css*/
-/*colores*/
-/*boder*/
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -51,9 +48,6 @@ section {
   letter-spacing: .2rem; }
 
 /*css del header*/
-/*variables de mi css*/
-/*colores*/
-/*boder*/
 .header {
   background: #545454;
   display: flex;
@@ -219,9 +213,6 @@ section {
         background: none; }
 
 /*css de mi inicio*/
-/*variables de mi css*/
-/*colores*/
-/*boder*/
 .home {
   min-height: 100vh;
   display: flex;
@@ -230,7 +221,7 @@ section {
   background-position: center; }
   .home .content {
     max-width: 60rem; }
-    .home .content h3 {
+    .home .content h1 {
       font-size: 6rem;
       text-transform: uppercase;
       color: #ffffff; }
@@ -241,10 +232,16 @@ section {
       padding: 1rem 0;
       color: #ffffff; }
 
+.contenedor-grid {
+  background: #545454;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: repeat(1, 150px);
+  height: 300px;
+  text-align: center; }
+
 /*about css*/
-/*variables de mi css*/
-/*colores*/
-/*boder*/
 .about .row {
   display: flex;
   align-items: center;
@@ -267,9 +264,6 @@ section {
       line-height: 1.8; }
 
 /* media queries  */
-/*variables de mi css*/
-/*colores*/
-/*boder*/
 @media (max-width: 991px) {
   html {
     font-size: 55%; }
@@ -312,10 +306,11 @@ section {
   html {
     font-size: 50%; } }
 
+@media (max-width: 600px) {
+  .contenedor-grid {
+    grid-template-rows: repeat(3, 150px); } }
+
 /*css menu*/
-/*variables de mi css*/
-/*colores*/
-/*boder*/
 .menu .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -384,9 +379,6 @@ section {
 .products .box-container .box .icons a:hover {
   background: #1abc9c; }
 
-/*variables de mi css*/
-/*colores*/
-/*boder*/
 .blogs .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -424,9 +416,6 @@ section {
 .blogs .box-container .box:hover .image img {
   transform: scale(1.2); }
 
-/*variables de mi css*/
-/*colores*/
-/*boder*/
 .products .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -467,9 +456,6 @@ section {
   background: #1abc9c; }
 
 /*css de mi footer*/
-/*variables de mi css*/
-/*colores*/
-/*boder*/
 .footer {
   background: black;
   text-align: center; }
