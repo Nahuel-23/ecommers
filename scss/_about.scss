@@ -19,10 +19,7 @@
             color:$color-primary;
         }
         p{
-            font-size: 1.6rem;
-            color:$color-secondary;
-            padding:1rem 0;
-            line-height: 1.8;
+            @include textosp ();
         }
     }
 }

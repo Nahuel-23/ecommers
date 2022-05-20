@@ -4,39 +4,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap:1.5rem;
-    .box{
-        border:$border; 
-        .image{
-            height: 25rem;
-            overflow:hidden;
-            width: 100%;
-            img{
-                height: 100%;
-                object-fit: cover;
-                width: 100%;
-            }
-        }
-        .content{
-            padding:2rem;
-            .title{
-                font-size: 2.5rem;
-                line-height: 1.5;
-                color:$color-primary;
-            }
-            span{
-                color:$color-principal;
-                display: block;
-                padding-top: 1rem;
-                font-size: 2rem;
-            }
-            p{
-                font-size: 1.6rem;
-                line-height: 1.8;
-                color:$color-secondary;
-                padding:1rem 0;
-            }
-        }
-    }
+    @extend .box1;
 }
 
 .blogs .box-container .box .content .title:hover{

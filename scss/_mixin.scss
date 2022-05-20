@@ -1,0 +1,14 @@
+/*mixin*/
+
+@mixin fontzh1 {
+    font-size: 6rem;
+    text-transform: uppercase;
+    color:$color-primary;
+}
+
+@mixin textosp {
+    font-size: 1.6rem;
+    color:$color-primary;
+    padding:1rem 0;
+    line-height: 1.8;
+}

@@ -1,0 +1,14 @@
+// mapa
+$redes: (
+    twitter: rgb(4, 69, 120),
+    facebook: blue,
+    instagram: rgb(157, 35, 84),
+    linkedin: rgb(8, 58, 144),
+    pinterest: rgb(212, 41, 41),
+);
+
+@each $red, $color in $redes {
+    .red-#{$red}{
+        color: $color;
+    }
+}

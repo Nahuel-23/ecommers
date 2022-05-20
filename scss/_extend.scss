@@ -1,0 +1,43 @@
+/*exten*/
+
+
+
+.box1{
+    border:none; 
+    .image{
+        height: 25rem;
+        overflow:hidden;
+        width: 100%;
+        img{
+            height: 100%;
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+    .content{
+        padding:2rem;
+        .title{
+            font-size: 2.5rem;
+            line-height: 1.5;
+            color:$color-primary;
+        }
+        span{
+            color:$color-principal;
+            display: block;
+            padding-top: 1rem;
+            font-size: 2rem;
+        }
+        p{
+            @include textosp ();
+        }
+    }
+}
+
+
+.box2 {
+    @extend .box1;
+}
+
+.box3 {
+    @extend .box1;
+}

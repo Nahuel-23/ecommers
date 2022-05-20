@@ -10,29 +10,26 @@
     .content{
         max-width: 60rem;
         h1{
-            font-size: 6rem;
-            text-transform: uppercase;
-            color:$color-primary;
+            @include fontzh1();
         }
         p{
-            font-size: 2rem;
-            font-weight: lighter;
-            line-height: 1.8;
-            padding:1rem 0;
-            color:$color-primary;
+            @include textosp ();
         }
     }
 }
 
-.contenedor-grid {
-    background: $color-fondo;
-    display: grid;
-    gap: 5px;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: repeat(1, 150px);
-    height: 300px;
-    text-align: center;
+
+.cuerpo-grid {
+     padding: 0 15px;
+     .cuerpo-cards{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 16px;
+        grid-auto-flow: dense;
+     }
 }
+ 
+
 
   
  

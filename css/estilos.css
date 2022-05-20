@@ -2,7 +2,51 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
 /*variables de mi css*/
 /*colores*/
-/*boder*/
+/*border*/
+/*mixin*/
+/*exten*/
+.box1, .box2, .box3, .blogs .box-container {
+  border: none; }
+  .box1 .image, .box2 .image, .box3 .image, .blogs .box-container .image {
+    height: 25rem;
+    overflow: hidden;
+    width: 100%; }
+    .box1 .image img, .box2 .image img, .box3 .image img, .blogs .box-container .image img {
+      height: 100%;
+      object-fit: cover;
+      width: 100%; }
+  .box1 .content, .box2 .content, .box3 .content, .blogs .box-container .content {
+    padding: 2rem; }
+    .box1 .content .title, .box2 .content .title, .box3 .content .title, .blogs .box-container .content .title {
+      font-size: 2.5rem;
+      line-height: 1.5;
+      color: #ffffff; }
+    .box1 .content span, .box2 .content span, .box3 .content span, .blogs .box-container .content span {
+      color: #1abc9c;
+      display: block;
+      padding-top: 1rem;
+      font-size: 2rem; }
+    .box1 .content p, .box2 .content p, .box3 .content p, .blogs .box-container .content p {
+      font-size: 1.6rem;
+      color: #ffffff;
+      padding: 1rem 0;
+      line-height: 1.8; }
+
+.red-twitter {
+  color: #044578 !important; } 
+
+.red-facebook {
+  color: blue !important; }
+
+.red-instagram {
+  color: #9d2354 !important; }
+
+.red-linkedin {
+  color: #083a90 !important; }
+
+.red-pinterest {
+  color: #d42929 !important; }
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -159,10 +203,10 @@ section {
     text-align: center;
     padding: 3rem 2rem; }
     .review .box-container .box p {
-      font-size: 1.5rem;
-      line-height: 1.8;
-      color: #9e9e9e;
-      padding: 2rem 0; }
+      font-size: 1.6rem;
+      color: #ffffff;
+      padding: 1rem 0;
+      line-height: 1.8; }
     .review .box-container .box .user {
       height: 7rem;
       width: 7rem;
@@ -226,20 +270,18 @@ section {
       text-transform: uppercase;
       color: #ffffff; }
     .home .content p {
-      font-size: 2rem;
-      font-weight: lighter;
-      line-height: 1.8;
+      font-size: 1.6rem;
+      color: #ffffff;
       padding: 1rem 0;
-      color: #ffffff; }
+      line-height: 1.8; }
 
-.contenedor-grid {
-  background: #545454;
-  display: grid;
-  gap: 5px;
-  grid-template-columns: 33% 33% 33%;
-  grid-template-rows: repeat(1, 150px);
-  height: 300px;
-  text-align: center; }
+.cuerpo-grid {
+  padding: 0 15px; }
+  .cuerpo-grid .cuerpo-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    grid-auto-flow: dense; }
 
 /*about css*/
 .about .row {
@@ -259,7 +301,7 @@ section {
       color: #ffffff; }
     .about .row .content p {
       font-size: 1.6rem;
-      color: #9e9e9e;
+      color: #ffffff;
       padding: 1rem 0;
       line-height: 1.8; }
 
@@ -383,32 +425,6 @@ section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem; }
-  .blogs .box-container .box {
-    border: 0.1rem solid black; }
-    .blogs .box-container .box .image {
-      height: 25rem;
-      overflow: hidden;
-      width: 100%; }
-      .blogs .box-container .box .image img {
-        height: 100%;
-        object-fit: cover;
-        width: 100%; }
-    .blogs .box-container .box .content {
-      padding: 2rem; }
-      .blogs .box-container .box .content .title {
-        font-size: 2.5rem;
-        line-height: 1.5;
-        color: #ffffff; }
-      .blogs .box-container .box .content span {
-        color: #1abc9c;
-        display: block;
-        padding-top: 1rem;
-        font-size: 2rem; }
-      .blogs .box-container .box .content p {
-        font-size: 1.6rem;
-        line-height: 1.8;
-        color: #9e9e9e;
-        padding: 1rem 0; }
 
 .blogs .box-container .box .content .title:hover {
   color: #1abc9c; }
