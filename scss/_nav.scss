@@ -1,0 +1,63 @@
+
+        .nav{
+            background: $color-fondo;
+            height: 80px;
+            color: $color-primary;
+            padding-top: 15px;
+        }
+        
+        .nav-log{
+            font-size: 24px;
+            font-weight: 900;
+        }
+        
+        .nav-container{
+            display: flex;
+            height: 100%;
+            width: 90%;
+            margin: 0 auto;
+            justify-content: space-between;
+            align-items: center;
+            a{
+                font-size: 15px;
+            }
+        }
+        
+        .nav-label, .nav-input{
+            display: none;
+        }
+        
+        .nav-menu{
+            display: grid;
+            grid-auto-flow: column;
+            gap: 48px;
+        }
+        
+        .nav-item{
+            color: $color-primary;
+            text-decoration: none;
+            --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);    
+        }
+        
+        .nav-input:checked + .nav-menu{
+            background: $color-principal;
+        }
+        
+        .nav-item::after{
+            content: "";
+            display: block;
+            background: $color-primary;
+            width: 90%;
+            margin-top: 3px;
+            height: 3px;
+            clip-path: var(--clippy);
+            transition: clip-path .4s;
+        }
+        
+        .nav-item:hover{
+            --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        }
+    
+    
+    
+

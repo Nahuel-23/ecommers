@@ -1,36 +1,9 @@
 /*css de mi footer*/
 
 
-.footer{
-    background:$color-fondo2;
-    text-align: center;
-    .share{
-        padding:1rem 0;
-        a{
-            height: 5rem;
-            width: 5rem;
-            line-height: 5rem;
-            font-size: 2rem;
-            color:$color-primary;
-            border:$border;
-            margin:.3rem;
-            border-radius: 50%;
-        }
-    }
-    .links{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        padding:2rem 0;
-        gap:1rem;
-        a{
-            padding:.7rem 2rem;
-            color:$color-primary;
-            border:$border;
-            font-size: 2rem;
-        }
-    }
+footer{
     .credit{
+        text-align: center;
         font-size: 2rem;
         color:$color-primary;
         font-weight: lighter;
@@ -39,12 +12,7 @@
             color:$color-principal;
         }
     }
-}
-
-.footer .share a:hover{
-    background-color: $color-principal;
-}
-
-.footer .links a:hover{
-    background:$color-principal;
+    i{
+        margin-top: 20px;
+    }
 }
