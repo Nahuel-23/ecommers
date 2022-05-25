@@ -1,7 +1,5 @@
 /*exten*/
 
-
-
 .box1{
     border:none; 
     .image{
@@ -39,5 +37,17 @@
 }
 
 .box3 {
+    @extend .box1;
+}
+
+.box4{
+    @extend .box1;
+}
+
+.box5{
+    @extend .box1;
+}
+
+.box6{
     @extend .box1;
 }

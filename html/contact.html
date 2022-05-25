@@ -28,41 +28,39 @@
 </head>
 <body>
     
-    <nav class="nav">
-        <div class="nav-container">
-            <h1 class="nav-logo">
-                <img src="../images/logo.jpg" style="width: 80px; border-radius: 50%;" alt="logo">
-            </h1>
-            <label for="menu" class="nav-label">
-                <img src="../images/menu.svg" alt="menu" class="nav-img">
-            </label>
-            <input type="checkbox" id="menu" class="nav-input">
-    
-            <div class="nav-menu">
-                <a href="../index.html" class="nav-item">inicio</a>
-                <a href="contact.html" class="nav-item">conactate</a>
-                <a href="menu.html" class="nav-item">ofertas</a>
-                <a href="productos.html" class="nav-item">productos</a>
-                <a href="review.html" class="nav-item">reseña</a>
-                <a href="blogs.html" class="nav-item">blogs</a>
-                <a href="about.html" class="nav-item">acerca de</a>
-            </div>
+    <header>
+        <div>
+            <h1>Midori Box</h1>
+            <br>
+                <h3>¿Que esperas para contactarte con nosotros?</h3>
         </div>
-    </nav>
+          <input type="checkbox" id="menu-toggle"/>
+            <label id="trigger" for="menu-toggle"></label>
+            <label id="burger" for="menu-toggle"></label>
+            <ul id="menu">
+              <li><a href="../index.html">Inicio</a></li>
+              <li><a href="contact.html">conactate</a></li>
+              <li><a href="oferta.html">ofertas</a></li>
+              <li><a href="productos.html">productos</a></li>
+              <li><a href="review.html">reseña</a></li>
+              <li><a href="blogs.html">blogs</a></li>
+              <li><a href="about.html">Acerca de</a></li>
+            </ul>
+            <div class="container-boton">
+                <a href="#" target="_blank">
+                    <img class="boton" src="../images/icono.png" alt="whatsapp">
+                </a>
+            </div>
+        </header>
     
     <!-- navegador  final -->
-
-    <!-- inicio section home -->
+    
+    <!-- home section comienzo  -->
+    
     <section class="home" id="home">
-
-        <div class="content">
-            <h1>¿Quieres ponerte en contacto con nosotros?</h1>
-            <p>en esta solapa podas encontrar una guia geografica de nuestra zona</p>
-            <p>no dudes en dejarnos algun contacto para poder comunicarnos</p>
-            <a href="#" class="btn">Dejar contacto</a>
-        </div>
-
     </section>
+    
+    <!-- home section final -->
     <!-- fin section home -->
 
 
@@ -130,9 +128,7 @@
             <li class="d-flex justify-content-between">
             <a href="#" class="text-reset"><i class="fab fa-facebook-f red-facebook"></i></a>
             <a href="#" class="text-reset"><i class="fab fa-instagram red-instagram"></i></a>
-            <a href="#" class="text-reset"><i class="fab fa-linkedin red-linkedin"></i></a>
             <a href="#" class="text-reset"><i class="fab fa-twitter red-twitter"></i></a>
-            <a href="#" class="text-reset"><i class="fab fa-pinterest red-pinterest"></i></a>
             </li>
         </ul>
         </nav>

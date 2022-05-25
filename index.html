@@ -28,41 +28,36 @@
 <body>
 <!-- navegador tipo hamburgesa -->
 
-    <nav class="nav">
-        <div class="nav-container">
-            <h1 class="nav-logo">
-                <img src="./images/logo.jpg" style="width: 80px; border-radius: 50%;" alt="logo">
-            </h1>
-            <label for="menu" class="nav-label">
-                <img src="./images/menu.svg" alt="menu" class="nav-img">
-            </label>
-            <input type="checkbox" id="menu" class="nav-input">
-
-            <div class="nav-menu">
-                <a href="index.html" class="nav-item">Inicio</a>
-                <a href="./html/contact.html" class="nav-item">conactate</a>
-                <a href="./html/menu.html" class="nav-item">ofertas</a>
-                <a href="./html/productos.html" class="nav-item">productos</a>
-                <a href="./html/review.html" class="nav-item">reseña</a>
-                <a href="./html/blogs.html" class="nav-item">blogs</a>
-                <a href="./html/about.html" class="nav-item">acerca de</a>
-            </div>
+<header>
+    <div>
+        <h1>Midori Box</h1>
+        <br>
+            <h3>Tienda Bazar, decoracion y demas..</h3>
+    </div>
+      <input type="checkbox" id="menu-toggle"/>
+        <label id="trigger" for="menu-toggle"></label>
+        <label id="burger" for="menu-toggle"></label>
+        <ul id="menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="./html/contact.html">conactate</a></li>
+          <li><a href="./html/oferta.html">ofertas</a></li>
+          <li><a href="./html/productos.html">productos</a></li>
+          <li><a href="./html/review.html">reseña</a></li>
+          <li><a href="./html/blogs.html">blogs</a></li>
+          <li><a href="./html/about.html">Acerca de</a></li>
+        </ul>
+        <div class="container-boton">
+            <a href="#" target="_blank">
+                <img class="boton" src="./images/icono.png" alt="whatsapp">
+            </a>
         </div>
-    </nav>
+    </header>
 
 <!-- navegador  final -->
 
 <!-- home section comienzo  -->
 
 <section class="home" id="home">
-
-    <div class="content">
-        <h1>Articulos de bazar</h1>
-        <p>En esta pagina encontraras los mejores precios y productos de todo el pais.</p>
-        <p>si no lo encontras, podes pedirlo contactandote con nosotros.</p>
-        <a href="./html/productos.html" class="btn">Consigue tu producto ahora</a>
-    </div>
-    
 </section>
 
 <!-- home section final -->
@@ -80,7 +75,7 @@
           <div class="content">
               <a href="#" class="title">Cafetera francesa</a>
               <span></span>
-              <p>Cafetera hudson, 6 pocillos, color aluminio</p>
+              <p>Cafetera hudson, 6 pocillos</p>
               <span>con garantia 6 meses</span>
               <a href="#" class="btn">Comprar</a>
           </div>
@@ -110,6 +105,45 @@
           </div>
       </div>
   </div>
+  <div class="box-container"> 
+
+    <div class="box1">
+        <div class="image">
+            <img src="./images/saturno.png" alt="lampara saturno">
+        </div>
+        <div class="content">
+            <a href="#" class="title">Lampara saturno</a>
+            <span></span>
+            <p>Cuenta con 3 intensidades</p>
+            <span>Con base de madera y cargador</span>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+    </div>
+
+    <div class="box2">
+        <div class="image">
+            <img src="./images/cactus.png" alt="cactus neon">
+        </div>
+        <div class="content">
+            <a href="#" class="title">Cactus Neon</a>
+            <p>Lampara forma cactus</p>
+              <span>lleva pilas (NO INCLUIDAS)</span>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+    </div>
+
+    <div class="box3">
+        <div class="image">
+            <img src="./images/licuadora.png" alt="licuadora">
+        </div>
+        <div class="content">
+            <a href="#" class="title">Licuadora Portatil</a>
+            <p>la podes encontraren diferentes colores</p>
+            <span>Inlcuye cargador USB</span>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+    </div>
+</div>
 </section>
 
 <!-- footer section comienzo  -->
@@ -141,9 +175,7 @@
             <li class="d-flex justify-content-between">
             <a href="#" class="text-reset"><i class="fab fa-facebook-f red-facebook"></i></a>
             <a href="#" class="text-reset"><i class="fab fa-instagram red-instagram"></i></a>
-            <a href="#" class="text-reset"><i class="fab fa-linkedin red-linkedin"></i></a>
             <a href="#" class="text-reset"><i class="fab fa-twitter red-twitter"></i></a>
-            <a href="#" class="text-reset"><i class="fab fa-pinterest red-pinterest"></i></a>
             </li>
         </ul>
         </nav>
