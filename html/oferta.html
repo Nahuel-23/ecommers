@@ -12,7 +12,7 @@
         <meta name="description" content="hola, somos nahu y flor y esta es nuestra tienda online, donde podras encontrar articulos de bazar, regaleria, decoracion y demas. seccion ofertas, se renuevan todas las semanas">
     
         <!-- favicon -->
-        <link rel="shortcut icon" href="./images/logo.jpg" type="image/x-icon">
+        <link rel="shortcut icon" href="../images/logo.jpg" type="image/x-icon">
 
       <!-- font cdn link  -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -22,6 +22,11 @@
 
       <!-- clink a mi css  -->
       <link rel="stylesheet" href="../css/estilos.css">
+
+              <!-- link del google fonts -->
+              <link rel="preconnect" href="https://fonts.googleapis.com">
+              <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+              <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
 
 </head>
@@ -38,18 +43,13 @@
             <label id="burger" for="menu-toggle"></label>
             <ul id="menu">
               <li><a href="../index.html">Inicio</a></li>
-              <li><a href="contact.html">conactate</a></li>
+              <li><a href="contact.html">contactate</a></li>
               <li><a href="oferta.html">ofertas</a></li>
               <li><a href="productos.html">productos</a></li>
               <li><a href="review.html">reseña</a></li>
               <li><a href="blogs.html">blogs</a></li>
               <li><a href="about.html">Acerca de</a></li>
             </ul>
-            <div class="container-boton">
-                <a href="#" target="_blank">
-                    <img class="boton" src="../images/icono.png" alt="whatsapp">
-                </a>
-            </div>
         </header>
     
     <!-- navegador  final -->
@@ -158,43 +158,54 @@
 
 <!-- footer section comienzo  -->
 
-<!-- footer section comienzo  -->
-
-<footer class="bg-dark text-white py-4">
+<footer class="footer">
     <div class="container">
-        <nav class="row">
-        <!-- logo -->
-        <a href="" class="col-3 text-reset text-uppercase d-flex align-items-center">
-            <img src="../images/logo.jpg" alt="logo" style="width: 80px;" class="img-logo mr-2">
-        </a>
-        <!-- menu -->
-        <ul class="col-3 list-unstyled">
-            <li class="font-wieght-bold text-uppercase">¿Buscas Trabajo?</li>
-            <li><a href="#" class="text-reset"></a>Vendedor</li>
-            <li><a href="#" class="text-reset"></a>Cajero</li>
-            <li><a href="#" class="text-reset"></a>Repositor</li>
-        </ul>
-        <!-- menu -->
-        <ul class="col-3 list-unstyled">
-            <li class="font-wieght-bold text-uppercase">Marcas Trabajadas</li>
-            <li><a href="#" class="text-reset"></a>Essen</li>
-            <li><a href="#" class="text-reset"></a>Tramontina</li>
-            <li><a href="#" class="text-reset"></a>Hudson</li>
-        </ul>
-        <!-- redes sociales -->
-        <ul class="col-3 list-unstyled">
-            <li class="font-wieght-bold text-uppercase">Redes Sociales</li>
-            <li class="d-flex justify-content-between">
-            <a href="#" class="text-reset"><i class="fab fa-facebook-f red-facebook"></i></a>
-            <a href="#" class="text-reset"><i class="fab fa-instagram red-instagram"></i></a>
-            <a href="#" class="text-reset"><i class="fab fa-twitter red-twitter"></i></a>
-            </li>
-        </ul>
-        </nav>
-        <div class="credit">creado por <span>Nahuel Areco</span> | todos los derechos reservados</div>
+        <div class="row">
+            <div class="footer-col">
+                <h4>Empresa</h4>
+                <ul>
+                    <li><a href="#">Hogar</a></li>
+                    <li><a href="#">Sobre Nosotros</a></li>
+                    <li><a href="#">Ponte En Contacto</a></li>
+                    <li><a href="#">Ofertas</a></li>
+                    <li><a href="#">Reseñas</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Productos</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>¿Necesitas Ayuda?</h4>
+                <ul>
+                    <li><a href="#">Terminos Y Condiciones</a></li>
+                    <li><a href="#">Metodos De Envios</a></li>
+                    <li><a href="#">Reembolsos</a></li>
+                    <li><a href="#">Estado de orden</a></li>
+                    <li><a href="#">Metodos De Pago</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>¿ Buscas Trabajo?</h4>
+                <ul>
+                    <li><a href="#">Vendedor</a></li>
+                    <li><a href="#">Repartidor</a></li>
+                    <li><a href="#">Programador</a></li>
+                    <li><a href="#">SEO</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Nuestras Redes</h4>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/Midori_box_oficial-100963142352829/?ref=pages_you_manage" target="_blank"><i class="fab fa-facebook-f red-facebook"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter red-twitter"></i></a>
+                    <a href="https://www.instagram.com/midori_box_oficial/" target="_blank"><i class="fab fa-instagram red-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/nahuel-areco-949103233/" target="_blank"><i class="fab fa-linkedin-in red-linkedin"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=1155170890&text=Hola,%20como%20est%C3%A1n?,%20estaba%20interesado%20en%20sus%20art%C3%ADculos" target="_blank"><i class="fab fa-whatsapp red-whatsapp"></i></a>
+                </div>           
+            </div>
+        </div>
     </div>
+    <div class="credit">creado por <span>Nahuel Areco</span> | todos los derechos reservados</div>
 </footer>
-
 <!-- footer section final -->
 
 <!-- custom js file link  -->

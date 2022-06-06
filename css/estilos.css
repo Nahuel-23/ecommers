@@ -6,6 +6,7 @@
 /*mixin*/
 /*exten*/
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 .box1, .box2, .box3, .box4, .box5, .box6, .blogs .box-container {
   border: none; }
   .box1 .image, .box2 .image, .box3 .image, .box4 .image, .box5 .image, .box6 .image, .blogs .box-container .image {
@@ -45,10 +46,11 @@
 .red-linkedin {
   color: #083a90; }
 
-.red-pinterest {
-  color: #d42929; }
+.red-whatsapp {
+  color: #4c9d51; }
 
 html {
+  font-family: 'Roboto Slab', serif;
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-padding-top: 9rem;
@@ -160,123 +162,109 @@ li {
     width: 3000px;
     height: 3000px; } }
 
-header li, header a {
-  margin: 75px 0 -55px 0;
-  color: black;
-  font: 14px "Roboto", sans-serif;
-  font-weight: 700;
-  line-height: 1.8;
-  text-decoration: none;
-  text-transform: none;
-  list-style: none;
-  outline: 0;
-  display: none; }
-
-header li {
-  width: 230px;
-  text-indent: 56px; }
-
-header a:focus {
-  display: block;
-  color: #1abc9c;
-  background-color: #1abc9c;
-  transition: all .5s; }
-
-header div {
-  position: absolute;
-  color: #272727;
-  top: 35%;
-  right: 10%;
-  text-align: right; }
-
-header h1 {
-  line-height: 0;
-  font-size: 4vw;
-  font-weight: 700;
-  margin: 5px;
-  padding: 5px;
-  color: #ffffff; }
-
-header h3 {
-  float: right;
-  line-height: .3;
-  font-size: 2.5vw;
-  font-weight: lighter;
-  margin: 5px;
-  padding: 5px;
-  color: #ffffff; }
-
-header html, header body {
-  margin: 0;
-  padding: 0;
-  background-color: #1abc9c;
-  font-family: 'Roboto', sans-serif;
-  overflow: hidden; }
-
-header #trigger, header #burger, header #burger:before, header #burger:after {
-  position: absolute;
-  top: 25px;
-  left: 25px;
-  background: #1abc9c;
-  width: 30px;
-  height: 5px;
-  transition: .2s ease;
-  cursor: pointer;
-  z-index: 1; }
-
-header #trigger {
-  height: 25px;
-  background: none; }
-
-header #burger:before {
-  content: " ";
-  top: 10px;
-  left: 0; }
-
-header #burger:after {
-  content: " ";
-  top: 20px;
-  left: 0; }
-
-header #menu-toggle:checked + #trigger + #burger {
-  top: 35px;
-  transform: rotate(180deg);
-  transition: transform .2s ease; }
-
-header #menu-toggle:checked + #trigger + #burger:before {
-  width: 20px;
-  top: -2px;
-  left: 18px;
-  transform: rotate(45deg) translateX(-5px);
-  transition: transform .2s ease; }
-
-header #menu-toggle:checked + #trigger + #burger:after {
-  width: 20px;
-  top: 2px;
-  left: 18px;
-  transform: rotate(-45deg) translateX(-5px);
-  transition: transform .2s ease; }
-
-header #menu {
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  width: 110px;
-  height: 110px;
-  background-color: #ffffff;
-  border-bottom-right-radius: 100%;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
-  animation: not-checked-anim .2s both;
-  transition: .2s; }
-
-header #menu-toggle:checked + #trigger + #burger + #menu {
-  animation: checked-anim 1s ease both; }
-
-header #menu-toggle:checked + #trigger ~ #menu > li, header a {
-  display: block; }
-
-header [type="checkbox"]:not(:checked), header [type="checkbox"]:checked {
-  display: none; }
+header {
+  font-family: 'Roboto Slab', serif; }
+  header li, header a {
+    margin: 75px 0 -55px 0;
+    color: black;
+    font: 14px "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 1.8;
+    text-decoration: none;
+    text-transform: none;
+    list-style: none;
+    outline: 0;
+    display: none; }
+  header li {
+    width: 230px;
+    text-indent: 56px; }
+  header a:focus {
+    display: block;
+    color: #1abc9c;
+    background-color: #1abc9c;
+    transition: all .5s; }
+  header div {
+    position: absolute;
+    color: #ffffff;
+    top: 20%;
+    right: 10%;
+    text-align: center; }
+  header h1 {
+    line-height: 0;
+    font-size: 4vw;
+    font-weight: 900;
+    margin: 5px;
+    padding: 5px;
+    color: #ffffff;
+    text-align: center; }
+  header h3 {
+    float: right;
+    line-height: 1.3;
+    font-size: 2.5vw;
+    font-weight: lighter;
+    margin: 5px;
+    padding: 5px;
+    color: #ffffff; }
+  header html, header body {
+    margin: 0;
+    padding: 0;
+    background-color: #1abc9c;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden; }
+  header #trigger, header #burger, header #burger:before, header #burger:after {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    background: #1abc9c;
+    width: 30px;
+    height: 5px;
+    transition: .2s ease;
+    cursor: pointer;
+    z-index: 1; }
+  header #trigger {
+    height: 25px;
+    background: none; }
+  header #burger:before {
+    content: " ";
+    top: 10px;
+    left: 0; }
+  header #burger:after {
+    content: " ";
+    top: 20px;
+    left: 0; }
+  header #menu-toggle:checked + #trigger + #burger {
+    top: 35px;
+    transform: rotate(180deg);
+    transition: transform .2s ease; }
+  header #menu-toggle:checked + #trigger + #burger:before {
+    width: 20px;
+    top: -2px;
+    left: 18px;
+    transform: rotate(45deg) translateX(-5px);
+    transition: transform .2s ease; }
+  header #menu-toggle:checked + #trigger + #burger:after {
+    width: 20px;
+    top: 2px;
+    left: 18px;
+    transform: rotate(-45deg) translateX(-5px);
+    transition: transform .2s ease; }
+  header #menu {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 110px;
+    height: 110px;
+    background-color: #ffffff;
+    border-bottom-right-radius: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+    animation: not-checked-anim .2s both;
+    transition: .2s; }
+  header #menu-toggle:checked + #trigger + #burger + #menu {
+    animation: checked-anim 1s ease both; }
+  header #menu-toggle:checked + #trigger ~ #menu > li, header a {
+    display: block; }
+  header [type="checkbox"]:not(:checked), header [type="checkbox"]:checked {
+    display: none; }
 
 /*whatsapp*/
 .boton {
@@ -436,7 +424,11 @@ header [type="checkbox"]:not(:checked), header [type="checkbox"]:checked {
   .home .content h3 {
     font-size: 4.5rem; }
   .home .content p {
-    font-size: 1.5rem; } }
+    font-size: 1.5rem; }
+  header div h1 {
+    font-size: 4.5rem; }
+  header div h3 {
+    font-size: 4.5rem; } }
 
 @media (max-width: 450px) {
   html {
@@ -446,49 +438,15 @@ header [type="checkbox"]:not(:checked), header [type="checkbox"]:checked {
   .contenedor-grid {
     grid-template-rows: repeat(3, 150px); } }
 
-/*media del menu hamburgesa*/
-@media (max-width: 768px) {
-  .nav-label {
-    display: block;
-    cursor: pointer; }
-  .nav-menu {
-    position: fixed;
-    top: 80px;
-    bottom: 0;
-    background: #1abc9c;
-    width: 100%;
-    left: 0;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center;
-    clip-path: circle(0 at center);
-    transition: clip-path 1s ease-in-out; }
-  .nav-input:checked + .nav-menu {
-    clip-path: circle(100% at center); } }
+/*footer*/
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px; } }
 
-@media screen and (max-width: 768px) {
-  .logo {
-    margin-left: 50px; }
-  nav {
-    height: 100px; }
-  .bar-btn {
-    display: none; }
-  .nav-menu {
-    position: relative;
-    height: 100px;
-    top: 0;
-    background: none;
-    transition: none;
-    text-align: right;
-    margin-right: 50px; }
-    .nav-menu li {
-      display: inline-block;
-      line-height: 100px;
-      margin: 0 20px;
-      transition: none; }
-      .nav-menu li a {
-        font-size: 12px; } }
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%; } }
 
 /*css menu*/
 .menu .box-container {
@@ -610,17 +568,79 @@ header [type="checkbox"]:not(:checked), header [type="checkbox"]:checked {
   background: #1abc9c; }
 
 /*css de mi footer*/
-footer .credit {
-  text-align: center;
-  font-size: 2rem;
-  color: #ffffff;
-  font-weight: lighter;
-  padding: 1.5rem; }
-  footer .credit span {
-    color: #1abc9c; }
+.footer {
+  background-color: #1c1c1c;
+  padding: 70px 0;
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif; }
+  .footer .container {
+    max-width: 1170px;
+    margin: auto; }
+    .footer .container .row {
+      display: flex;
+      flex-wrap: wrap; }
+      .footer .container .row .footer-col {
+        width: 25%;
+        padding: 0 15px; }
+        .footer .container .row .footer-col h4 {
+          font-size: 18px;
+          color: #ffffff !important;
+          text-transform: capitalize;
+          margin-bottom: 35px;
+          font-weight: 500;
+          position: relative; }
+        .footer .container .row .footer-col ul {
+          list-style: none; }
+          .footer .container .row .footer-col ul li a {
+            font-size: 16px;
+            text-transform: capitalize;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 300;
+            color: #ffffff;
+            display: block;
+            transition: all 0.3s ease; }
+        .footer .container .row .footer-col .social-links a {
+          font-size: 16px;
+          display: inline-block;
+          height: 40px;
+          width: 40px;
+          background-color: #545454;
+          margin: 0 10px 10px 0;
+          text-align: center;
+          line-height: 40px;
+          border-radius: 50%;
+          color: #ffffff;
+          transition: all 0.5s ease; }
+  .footer .credit {
+    text-align: center;
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: lighter;
+    padding: 1.5rem; }
+    .footer .credit span {
+      color: #1abc9c; }
 
-footer i {
-  margin-top: 20px; }
+.footer-col h4::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #1abc9c;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px; }
+
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px; }
+
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px; }
+
+.footer-col .social-links a:hover {
+  color: #1c1c1c !important;
+  background-color: #ffffff !important; }
 
 * {
   font-family: 'Roboto', sans-serif;
