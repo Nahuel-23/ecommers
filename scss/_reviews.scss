@@ -2,6 +2,7 @@
 
 
 .review .box-container{
+    font-family: 'Bebas Neue', cursive;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap:1.5rem;
@@ -11,6 +12,7 @@
         padding:3rem 2rem;
         p{
             @include textosp ();
+            font-family: 'Bebas Neue', cursive;
         }
         .user{
             height: 7rem;
@@ -20,6 +22,7 @@
         }
         h3{
             padding:1rem 0;
+            font-family: 'Bebas Neue', cursive ;
             font-size: 2rem;
             color:$color-primary;
         }

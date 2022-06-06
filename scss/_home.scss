@@ -11,9 +11,11 @@
         max-width: 60rem;
         h1{
             @include fontzh1();
+            font-family: 'Bebas Neue', cursive ;
         }
         p{
             @include textosp ();
+            font-family: 'Bebas Neue', cursive ;
         }
     }
 }

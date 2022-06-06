@@ -15,10 +15,12 @@
         flex:1 1 45rem;
         padding:2rem;
         h3{
+            font-family: 'Bebas Neue', cursive !important;
             font-size: 3rem;
             color:$color-primary;
         }
         p{
+            font-family: 'Bebas Neue', cursive !important;
             @include textosp ();
         }
     }

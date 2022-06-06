@@ -6,7 +6,6 @@
 /*mixin*/
 /*exten*/
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 .box1, .box2, .box3, .box4, .box5, .box6, .blogs .box-container {
   border: none; }
   .box1 .image, .box2 .image, .box3 .image, .box4 .image, .box5 .image, .box6 .image, .blogs .box-container .image {
@@ -50,7 +49,7 @@
   color: #4c9d51; }
 
 html {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Bebas Neue', cursive;
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-padding-top: 9rem;
@@ -277,6 +276,7 @@ header {
 
 /*css reseñas*/
 .review .box-container {
+  font-family: 'Bebas Neue', cursive;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem; }
@@ -288,7 +288,8 @@ header {
       font-size: 1.6rem;
       color: #ffffff;
       padding: 1rem 0;
-      line-height: 1.8; }
+      line-height: 1.8;
+      font-family: 'Bebas Neue', cursive; }
     .review .box-container .box .user {
       height: 7rem;
       width: 7rem;
@@ -296,6 +297,7 @@ header {
       object-fit: cover; }
     .review .box-container .box h3 {
       padding: 1rem 0;
+      font-family: 'Bebas Neue', cursive;
       font-size: 2rem;
       color: #ffffff; }
     .review .box-container .box .stars i {
@@ -350,12 +352,14 @@ header {
     .home .content h1 {
       font-size: 6rem;
       text-transform: uppercase;
-      color: #ffffff; }
+      color: #ffffff;
+      font-family: 'Bebas Neue', cursive; }
     .home .content p {
       font-size: 1.6rem;
       color: #ffffff;
       padding: 1rem 0;
-      line-height: 1.8; }
+      line-height: 1.8;
+      font-family: 'Bebas Neue', cursive; }
 
 .cuerpo-grid {
   padding: 0 15px; }
@@ -379,9 +383,11 @@ header {
     flex: 1 1 45rem;
     padding: 2rem; }
     .about .row .content h3 {
+      font-family: 'Bebas Neue', cursive !important;
       font-size: 3rem;
       color: #ffffff; }
     .about .row .content p {
+      font-family: 'Bebas Neue', cursive !important;
       font-size: 1.6rem;
       color: #ffffff;
       padding: 1rem 0;
@@ -572,7 +578,7 @@ header {
   background-color: #1c1c1c;
   padding: 70px 0;
   line-height: 1.5;
-  font-family: 'Poppins', sans-serif; }
+  font-family: 'Bebas Neue', cursive; }
   .footer .container {
     max-width: 1170px;
     margin: auto; }
@@ -613,6 +619,7 @@ header {
           color: #ffffff;
           transition: all 0.5s ease; }
   .footer .credit {
+    font-family: 'Bebas Neue', cursive;
     text-align: center;
     font-size: 2rem;
     color: #ffffff;
@@ -643,7 +650,7 @@ header {
   background-color: #ffffff !important; }
 
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Bebas Neue', cursive;
   margin: 0;
   padding: 0;
   box-sizing: border-box;

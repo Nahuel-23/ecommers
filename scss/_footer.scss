@@ -1,11 +1,11 @@
 /*css de mi footer*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 
 .footer{
 	background-color: $fondo-foo;
     padding: 70px 0;
     line-height: 1.5;
-	font-family: 'Poppins', sans-serif;
+    font-family: 'Bebas Neue', cursive;
     .container{
         max-width: 1170px;
         margin:auto;
@@ -53,6 +53,7 @@
         }
     }
     .credit{
+        font-family: 'Bebas Neue', cursive;
         text-align: center;
         font-size: 2rem;
         color:$color-primary;
